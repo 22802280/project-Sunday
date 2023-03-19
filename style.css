@@ -92,3 +92,54 @@ header{
     text-decoration: none;
     border-radius: 6px;
 }
+
+.header-info-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info{
+    max-width: 361px;
+}
+
+.card-info img{
+    display: flex;
+}
+
+.info-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+
+.info-subtitle{
+    font-size: 13px;
+    font-weight: bold;
+    color: #8c8c8c;
+    letter-spacing: 1.5px;
+}
+
+.about-subtitle-text{
+    border-left: 1px solid #fff;
+    padding: 8px 0 8px 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
+    display: inline-block;
+}
+
+.card-about{
+    max-width: 650px;
+}
+
+.about-desc{
+    max-width: 240px;
+    font-size: 14px;
+    color: #d1d1d1;
+}
